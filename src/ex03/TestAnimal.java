@@ -23,7 +23,7 @@ class Cat{
 public class TestAnimal {
 
 	public static void main(String[] args) {
-		Dog chu = new Dog();	// 생성자 호출 -> 생성자 없음 : 자바가 기본생성자를 생성해줌
+		Dog chu = new Dog();	// 생성자 호출 -> 생성자 없음 : 자바가 기본 생성자를 생성해줌
 		chu.name = "츄";
 		chu.eat();
 		chu.bark();
